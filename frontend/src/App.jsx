@@ -3,15 +3,13 @@ import Home from "./pages/Home";
 import Compare from "./pages/Compare";
 
 export default function App() {
-  const [product, setProduct] = useState(null);
+  const [showCompare, setShowCompare] = useState(false);
 
   return (
-    <>
-      {!product ? (
-        <Home onSearch={setProduct} />
-      ) : (
-        <Compare product={product} />
-      )}
-    </>
+    <div className="container">
+      {showCompare
+        ? <Compare />
+        : <Home onSearch={() => setShowCompare(true)} />}
+    </div>
   );
 }
