@@ -1,14 +1,30 @@
-export default function Recommendation({ data }) {
+import PriceRow from "./PriceRow";
+import { mockPrices } from "../data/mockPrices";
+
+export default function PriceTable() {
+  const cheapest = Math.min(...mockPrices.map(p => p.total));
+
   return (
-    <div className="recommendation">
-      <h3>AI Recommendation</h3>
-      <p>
-        <strong>Best Platform:</strong> {data.recommended}
-      </p>
-      <p>{data.explanation}</p>
-      <small>
-        Powered by Microsoft Azure OpenAI & Azure Machine Learning
-      </small>
-    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Platform</th>
+          <th>Price</th>
+          <th>Delivery</th>
+          <th>Fee</th>
+          <th>Total</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {mockPrices.map(item => (
+          <PriceRow
+            key={item.platform}
+            item={item}
+            isBest={item.total === cheapest}
+          />
+        ))}
+      </tbody>
+    </table>
   );
 }
