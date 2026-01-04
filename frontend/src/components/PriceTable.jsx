@@ -1,18 +1,28 @@
-export default function PriceTable({ prices }) {
+import PriceRow from "./PriceRow";
+import { mockPrices } from "../data/mockPrices";
+
+export default function PriceTable() {
+  const cheapest = Math.min(...mockPrices.map(p => p.total));
+
   return (
     <table>
       <thead>
         <tr>
           <th>Platform</th>
-          <th>Price (₹)</th>
+          <th>Price</th>
+          <th>Delivery</th>
+          <th>Fee</th>
+          <th>Total</th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
-        {Object.entries(prices).map(([platform, price]) => (
-          <tr key={platform}>
-            <td>{platform}</td>
-            <td>₹{price}</td>
-          </tr>
+        {mockPrices.map(item => (
+          <PriceRow
+            key={item.platform}
+            item={item}
+            isBest={item.total === cheapest}
+          />
         ))}
       </tbody>
     </table>
