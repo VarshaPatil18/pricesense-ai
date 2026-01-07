@@ -27,3 +27,4 @@ export const mockPrices = [
     time: "25 mins"
   }
 ];
+

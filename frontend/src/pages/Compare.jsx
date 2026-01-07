@@ -4,10 +4,11 @@ import PriceTable from "../components/PriceTable";
 
 export default function Compare() {
   return (
-    <>
+    <div className="container">
       <SearchBar />
       <Recommendation />
       <PriceTable />
-    </>
+    </div>
   );
 }
+

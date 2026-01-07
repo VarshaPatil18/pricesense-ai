@@ -1,30 +1,21 @@
-import PriceRow from "./PriceRow";
 import { mockPrices } from "../data/mockPrices";
 
-export default function PriceTable() {
-  const cheapest = Math.min(...mockPrices.map(p => p.total));
+export default function Recommendation() {
+  const best = mockPrices.reduce((a, b) =>
+    a.total < b.total ? a : b
+  );
 
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>Platform</th>
-          <th>Price</th>
-          <th>Delivery</th>
-          <th>Fee</th>
-          <th>Total</th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        {mockPrices.map(item => (
-          <PriceRow
-            key={item.platform}
-            item={item}
-            isBest={item.total === cheapest}
-          />
-        ))}
-      </tbody>
-    </table>
+    <div className="recommendation">
+      <h2>🤖 AI Recommendation</h2>
+      <p>
+        <strong>{best.platform}</strong> is the best option right now.
+      </p>
+      <p>
+        Lowest total price (₹{best.total}) with delivery in {best.time}.
+      </p>
+    </div>
   );
 }
+
+

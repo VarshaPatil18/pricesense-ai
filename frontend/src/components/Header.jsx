@@ -1,8 +1,24 @@
 export default function Header() {
   return (
-    <header className="header">
-      <h1>PriceSense AI</h1>
-      <p>Compare grocery prices across apps instantly</p>
+    <header className="hero">
+      <div className="top-bar">
+        <span className="logo">PriceSense AI</span>
+        <span className="profile">👤 Guest</span>
+      </div>
+
+      <h1>Smarter Shopping with AI</h1>
+      <p className="tagline">
+        Best platform. Best time. Explained by AI.
+      </p>
+
+      <div className="hero-badges">
+        <span>💰 Save Money</span>
+        <span>⚡ Smart Timing</span>
+        <span>🤖 Explainable AI</span>
+      </div>
     </header>
   );
 }
+
+
+

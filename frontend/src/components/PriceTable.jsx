@@ -10,9 +10,11 @@ export default function PriceTable() {
         <tr>
           <th>Platform</th>
           <th>Price</th>
+          <th>Qty</th>
           <th>Delivery</th>
           <th>Fee</th>
           <th>Total</th>
+          <th>ETA</th>
           <th></th>
         </tr>
       </thead>
@@ -28,3 +30,5 @@ export default function PriceTable() {
     </table>
   );
 }
+
+
