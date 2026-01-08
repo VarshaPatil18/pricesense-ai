@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.routes.products import router as products_router
-from backend.routes.recommend import router as recommend_router
+from routes.products import router as products_router
+from routes.recommend import router as recommend_router
 
 app = FastAPI(title="PriceSense AI Backend")
 
