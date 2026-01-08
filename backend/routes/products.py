@@ -1,14 +1,14 @@
 from fastapi import APIRouter
+import json
+import os
 
 router = APIRouter()
 
-@router.get("/")
-def recommend_best(products: list[dict]):
-    if not products:
-        return {"message": "No products found"}
+DATA_PATH = os.path.join("data", "prices.json")
 
-    best = min(products, key=lambda x: x["total"])
-    return {
-        "recommended_platform": best["platform"],
-        "reason": "Lowest total price"
-    }
+@router.get("/")
+def get_products(item: str = "milk"):
+    with open(DATA_PATH, "r") as f:
+        data = json.load(f)
+
+    return data.get(item.lower(), [])
