@@ -1,0 +1,28 @@
+{
+  "milk": [
+    {
+      "platform": "Swiggy Instamart",
+      "price": 55,
+      "qty": "1L",
+      "delivery": 0,
+      "fee": 6,
+      "eta": 25
+    },
+    {
+      "platform": "Zepto",
+      "price": 50,
+      "qty": "1L",
+      "delivery": 15,
+      "fee": 5,
+      "eta": 10
+    },
+    {
+      "platform": "Blinkit",
+      "price": 52,
+      "qty": "1L",
+      "delivery": 10,
+      "fee": 3,
+      "eta": 15
+    }
+  ]
+}
