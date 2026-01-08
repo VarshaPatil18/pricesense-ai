@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routes.products import router as products_router
-from routes.recommend import router as recommend_router
+from backend.routes.products import router as products_router
+from backend.routes.recommend import router as recommend_router
 
 app = FastAPI(title="PriceSense AI Backend")
 
@@ -22,3 +22,4 @@ def root():
 # Register routes
 app.include_router(products_router, prefix="/products", tags=["Products"])
 app.include_router(recommend_router, prefix="/recommend", tags=["Recommendation"])
+
