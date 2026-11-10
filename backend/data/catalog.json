@@ -1,0 +1,1303 @@
+{
+  "note": "Sample data for demonstration. Not real platform prices.",
+  "seed": 2026,
+  "products": [
+    {
+      "id": "milk-toned-1l",
+      "name": "Toned Milk",
+      "brand": "Amul Taaza",
+      "category": "Dairy",
+      "size": {
+        "value": 1000,
+        "unit": "ml"
+      },
+      "aliases": [
+        "milk",
+        "doodh"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 50,
+          "mrp": 58,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 53,
+          "mrp": 58,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 50,
+          "mrp": 58,
+          "in_stock": false
+        }
+      }
+    },
+    {
+      "id": "milk-full-cream-500ml",
+      "name": "Full Cream Milk",
+      "brand": "Amul Gold",
+      "category": "Dairy",
+      "size": {
+        "value": 500,
+        "unit": "ml"
+      },
+      "aliases": [
+        "milk",
+        "full cream"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 31,
+          "mrp": 35,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 32,
+          "mrp": 35,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 33,
+          "mrp": 35,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "curd-400g",
+      "name": "Curd",
+      "brand": "Mother Dairy",
+      "category": "Dairy",
+      "size": {
+        "value": 400,
+        "unit": "g"
+      },
+      "aliases": [
+        "dahi",
+        "yogurt",
+        "yoghurt"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 35,
+          "mrp": 40,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 36,
+          "mrp": 40,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 37,
+          "mrp": 40,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "butter-100g",
+      "name": "Butter",
+      "brand": "Amul",
+      "category": "Dairy",
+      "size": {
+        "value": 100,
+        "unit": "g"
+      },
+      "aliases": [
+        "makhan"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 56,
+          "mrp": 60,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 60,
+          "mrp": 60,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 59,
+          "mrp": 60,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "paneer-200g",
+      "name": "Paneer",
+      "brand": "Amul",
+      "category": "Dairy",
+      "size": {
+        "value": 200,
+        "unit": "g"
+      },
+      "aliases": [
+        "cottage cheese"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 94,
+          "mrp": 95,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 95,
+          "mrp": 95,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 83,
+          "mrp": 95,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "cheese-slices-200g",
+      "name": "Cheese Slices",
+      "brand": "Britannia",
+      "category": "Dairy",
+      "size": {
+        "value": 200,
+        "unit": "g"
+      },
+      "aliases": [
+        "cheese"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 148,
+          "mrp": 155,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 146,
+          "mrp": 155,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 147,
+          "mrp": 155,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "eggs-6",
+      "name": "Eggs",
+      "brand": "Farm Fresh",
+      "category": "Dairy",
+      "size": {
+        "value": 6,
+        "unit": "pc"
+      },
+      "aliases": [
+        "egg",
+        "anda"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 51,
+          "mrp": 54,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 51,
+          "mrp": 54,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 48,
+          "mrp": 54,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "bread-white-400g",
+      "name": "White Bread",
+      "brand": "Britannia",
+      "category": "Bakery",
+      "size": {
+        "value": 400,
+        "unit": "g"
+      },
+      "aliases": [
+        "bread",
+        "loaf"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 40,
+          "mrp": 45,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 44,
+          "mrp": 45,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 42,
+          "mrp": 45,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "bread-brown-400g",
+      "name": "Brown Bread",
+      "brand": "Harvest Gold",
+      "category": "Bakery",
+      "size": {
+        "value": 400,
+        "unit": "g"
+      },
+      "aliases": [
+        "bread",
+        "wheat bread"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 54,
+          "mrp": 55,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 50,
+          "mrp": 55,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 49,
+          "mrp": 55,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "rice-basmati-1kg",
+      "name": "Basmati Rice",
+      "brand": "India Gate",
+      "category": "Staples",
+      "size": {
+        "value": 1000,
+        "unit": "g"
+      },
+      "aliases": [
+        "rice",
+        "chawal"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 145,
+          "mrp": 165,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 156,
+          "mrp": 165,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 154,
+          "mrp": 165,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "rice-sona-masoori-5kg",
+      "name": "Sona Masoori Rice",
+      "brand": "Daawat",
+      "category": "Staples",
+      "size": {
+        "value": 5000,
+        "unit": "g"
+      },
+      "aliases": [
+        "rice",
+        "chawal"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 387,
+          "mrp": 420,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 369,
+          "mrp": 420,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 395,
+          "mrp": 420,
+          "in_stock": false
+        }
+      }
+    },
+    {
+      "id": "atta-5kg",
+      "name": "Whole Wheat Atta",
+      "brand": "Aashirvaad",
+      "category": "Staples",
+      "size": {
+        "value": 5000,
+        "unit": "g"
+      },
+      "aliases": [
+        "atta",
+        "flour",
+        "wheat flour"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 233,
+          "mrp": 265,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 233,
+          "mrp": 265,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 250,
+          "mrp": 265,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "sugar-1kg",
+      "name": "Sugar",
+      "brand": "Madhur",
+      "category": "Staples",
+      "size": {
+        "value": 1000,
+        "unit": "g"
+      },
+      "aliases": [
+        "cheeni",
+        "shakkar"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 51,
+          "mrp": 58,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 53,
+          "mrp": 58,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 50,
+          "mrp": 58,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "salt-1kg",
+      "name": "Iodised Salt",
+      "brand": "Tata",
+      "category": "Staples",
+      "size": {
+        "value": 1000,
+        "unit": "g"
+      },
+      "aliases": [
+        "salt",
+        "namak"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 25,
+          "mrp": 28,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 26,
+          "mrp": 28,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 25,
+          "mrp": 28,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "toor-dal-1kg",
+      "name": "Toor Dal",
+      "brand": "Tata Sampann",
+      "category": "Staples",
+      "size": {
+        "value": 1000,
+        "unit": "g"
+      },
+      "aliases": [
+        "dal",
+        "arhar",
+        "lentils"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 172,
+          "mrp": 199,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 184,
+          "mrp": 199,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 180,
+          "mrp": 199,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "moong-dal-500g",
+      "name": "Moong Dal",
+      "brand": "Tata Sampann",
+      "category": "Staples",
+      "size": {
+        "value": 500,
+        "unit": "g"
+      },
+      "aliases": [
+        "dal",
+        "lentils"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 86,
+          "mrp": 92,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 90,
+          "mrp": 92,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 81,
+          "mrp": 92,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "sunflower-oil-1l",
+      "name": "Sunflower Oil",
+      "brand": "Fortune",
+      "category": "Staples",
+      "size": {
+        "value": 1000,
+        "unit": "ml"
+      },
+      "aliases": [
+        "oil",
+        "cooking oil"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 162,
+          "mrp": 165,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 149,
+          "mrp": 165,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 149,
+          "mrp": 165,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "mustard-oil-1l",
+      "name": "Mustard Oil",
+      "brand": "Fortune",
+      "category": "Staples",
+      "size": {
+        "value": 1000,
+        "unit": "ml"
+      },
+      "aliases": [
+        "oil",
+        "sarson"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 160,
+          "mrp": 185,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 160,
+          "mrp": 185,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 178,
+          "mrp": 185,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "ghee-500ml",
+      "name": "Ghee",
+      "brand": "Amul",
+      "category": "Staples",
+      "size": {
+        "value": 500,
+        "unit": "ml"
+      },
+      "aliases": [
+        "clarified butter"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 288,
+          "mrp": 335,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 309,
+          "mrp": 335,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 305,
+          "mrp": 335,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "poha-500g",
+      "name": "Poha",
+      "brand": "Tata Sampann",
+      "category": "Staples",
+      "size": {
+        "value": 500,
+        "unit": "g"
+      },
+      "aliases": [
+        "flattened rice",
+        "chivda"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 49,
+          "mrp": 55,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 52,
+          "mrp": 55,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 53,
+          "mrp": 55,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "tea-250g",
+      "name": "Tea",
+      "brand": "Tata Tea Gold",
+      "category": "Beverages",
+      "size": {
+        "value": 250,
+        "unit": "g"
+      },
+      "aliases": [
+        "chai",
+        "chai patti"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 170,
+          "mrp": 170,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 166,
+          "mrp": 170,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 149,
+          "mrp": 170,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "coffee-50g",
+      "name": "Instant Coffee",
+      "brand": "Nescafe Classic",
+      "category": "Beverages",
+      "size": {
+        "value": 50,
+        "unit": "g"
+      },
+      "aliases": [
+        "coffee"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 164,
+          "mrp": 185,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 161,
+          "mrp": 185,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 176,
+          "mrp": 185,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "cola-750ml",
+      "name": "Cola",
+      "brand": "Coca-Cola",
+      "category": "Beverages",
+      "size": {
+        "value": 750,
+        "unit": "ml"
+      },
+      "aliases": [
+        "coke",
+        "soft drink",
+        "cold drink"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 41,
+          "mrp": 45,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 42,
+          "mrp": 45,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 40,
+          "mrp": 45,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "orange-juice-1l",
+      "name": "Orange Juice",
+      "brand": "Real",
+      "category": "Beverages",
+      "size": {
+        "value": 1000,
+        "unit": "ml"
+      },
+      "aliases": [
+        "juice"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 117,
+          "mrp": 125,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 113,
+          "mrp": 125,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 124,
+          "mrp": 125,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "water-1l",
+      "name": "Packaged Drinking Water",
+      "brand": "Bisleri",
+      "category": "Beverages",
+      "size": {
+        "value": 1000,
+        "unit": "ml"
+      },
+      "aliases": [
+        "water",
+        "paani"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 19,
+          "mrp": 20,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 18,
+          "mrp": 20,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 19,
+          "mrp": 20,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "maggi-4pack",
+      "name": "Instant Noodles (Pack of 4)",
+      "brand": "Maggi",
+      "category": "Snacks",
+      "size": {
+        "value": 280,
+        "unit": "g"
+      },
+      "aliases": [
+        "maggi",
+        "noodles"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 48,
+          "mrp": 56,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 54,
+          "mrp": 56,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 49,
+          "mrp": 56,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "biscuits-marie-250g",
+      "name": "Marie Biscuits",
+      "brand": "Britannia",
+      "category": "Snacks",
+      "size": {
+        "value": 250,
+        "unit": "g"
+      },
+      "aliases": [
+        "biscuit",
+        "cookies"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 38,
+          "mrp": 40,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 36,
+          "mrp": 40,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 35,
+          "mrp": 40,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "chips-90g",
+      "name": "Potato Chips",
+      "brand": "Lays",
+      "category": "Snacks",
+      "size": {
+        "value": 90,
+        "unit": "g"
+      },
+      "aliases": [
+        "chips",
+        "crisps",
+        "wafers"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 44,
+          "mrp": 50,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 47,
+          "mrp": 50,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 49,
+          "mrp": 50,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "chocolate-50g",
+      "name": "Milk Chocolate",
+      "brand": "Cadbury Dairy Milk",
+      "category": "Snacks",
+      "size": {
+        "value": 50,
+        "unit": "g"
+      },
+      "aliases": [
+        "chocolate",
+        "dairy milk"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 44,
+          "mrp": 45,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 39,
+          "mrp": 45,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 44,
+          "mrp": 45,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "peanut-butter-340g",
+      "name": "Peanut Butter",
+      "brand": "Pintola",
+      "category": "Snacks",
+      "size": {
+        "value": 340,
+        "unit": "g"
+      },
+      "aliases": [
+        "pb"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 184,
+          "mrp": 199,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 176,
+          "mrp": 199,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 182,
+          "mrp": 199,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "banana-6",
+      "name": "Banana",
+      "brand": "Fresh",
+      "category": "Fruits & Vegetables",
+      "size": {
+        "value": 6,
+        "unit": "pc"
+      },
+      "aliases": [
+        "bananas",
+        "kela"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 41,
+          "mrp": 42,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 42,
+          "mrp": 42,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 39,
+          "mrp": 42,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "apple-4",
+      "name": "Apple",
+      "brand": "Fresh",
+      "category": "Fruits & Vegetables",
+      "size": {
+        "value": 4,
+        "unit": "pc"
+      },
+      "aliases": [
+        "apples",
+        "seb"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 121,
+          "mrp": 135,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 128,
+          "mrp": 135,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 135,
+          "mrp": 135,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "tomato-500g",
+      "name": "Tomato",
+      "brand": "Fresh",
+      "category": "Fruits & Vegetables",
+      "size": {
+        "value": 500,
+        "unit": "g"
+      },
+      "aliases": [
+        "tomatoes",
+        "tamatar"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 26,
+          "mrp": 28,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 24,
+          "mrp": 28,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 25,
+          "mrp": 28,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "onion-1kg",
+      "name": "Onion",
+      "brand": "Fresh",
+      "category": "Fruits & Vegetables",
+      "size": {
+        "value": 1000,
+        "unit": "g"
+      },
+      "aliases": [
+        "onions",
+        "pyaaz"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 36,
+          "mrp": 42,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 39,
+          "mrp": 42,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 39,
+          "mrp": 42,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "potato-1kg",
+      "name": "Potato",
+      "brand": "Fresh",
+      "category": "Fruits & Vegetables",
+      "size": {
+        "value": 1000,
+        "unit": "g"
+      },
+      "aliases": [
+        "potatoes",
+        "aloo"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 35,
+          "mrp": 38,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 34,
+          "mrp": 38,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 36,
+          "mrp": 38,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "coriander-100g",
+      "name": "Coriander Leaves",
+      "brand": "Fresh",
+      "category": "Fruits & Vegetables",
+      "size": {
+        "value": 100,
+        "unit": "g"
+      },
+      "aliases": [
+        "dhaniya",
+        "cilantro"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 15,
+          "mrp": 15,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 15,
+          "mrp": 15,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 13,
+          "mrp": 15,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "dish-soap-500ml",
+      "name": "Dishwash Liquid",
+      "brand": "Vim",
+      "category": "Household",
+      "size": {
+        "value": 500,
+        "unit": "ml"
+      },
+      "aliases": [
+        "dish soap",
+        "vim"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 107,
+          "mrp": 115,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 109,
+          "mrp": 115,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 113,
+          "mrp": 115,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "detergent-1kg",
+      "name": "Detergent Powder",
+      "brand": "Surf Excel",
+      "category": "Household",
+      "size": {
+        "value": 1000,
+        "unit": "g"
+      },
+      "aliases": [
+        "washing powder",
+        "surf"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 137,
+          "mrp": 145,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 126,
+          "mrp": 145,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 137,
+          "mrp": 145,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "toilet-cleaner-500ml",
+      "name": "Toilet Cleaner",
+      "brand": "Harpic",
+      "category": "Household",
+      "size": {
+        "value": 500,
+        "unit": "ml"
+      },
+      "aliases": [
+        "harpic"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 90,
+          "mrp": 99,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 86,
+          "mrp": 99,
+          "in_stock": false
+        },
+        "instamart": {
+          "price": 86,
+          "mrp": 99,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "bath-soap-4pack",
+      "name": "Bath Soap (Pack of 4)",
+      "brand": "Dove",
+      "category": "Personal Care",
+      "size": {
+        "value": 400,
+        "unit": "g"
+      },
+      "aliases": [
+        "soap"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 229,
+          "mrp": 240,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 230,
+          "mrp": 240,
+          "in_stock": false
+        },
+        "instamart": {
+          "price": 229,
+          "mrp": 240,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "toothpaste-150g",
+      "name": "Toothpaste",
+      "brand": "Colgate",
+      "category": "Personal Care",
+      "size": {
+        "value": 150,
+        "unit": "g"
+      },
+      "aliases": [
+        "colgate",
+        "paste"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 101,
+          "mrp": 110,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 98,
+          "mrp": 110,
+          "in_stock": false
+        },
+        "instamart": {
+          "price": 108,
+          "mrp": 110,
+          "in_stock": true
+        }
+      }
+    },
+    {
+      "id": "shampoo-180ml",
+      "name": "Shampoo",
+      "brand": "Head & Shoulders",
+      "category": "Personal Care",
+      "size": {
+        "value": 180,
+        "unit": "ml"
+      },
+      "aliases": [
+        "hair wash"
+      ],
+      "offers": {
+        "blinkit": {
+          "price": 164,
+          "mrp": 175,
+          "in_stock": true
+        },
+        "zepto": {
+          "price": 167,
+          "mrp": 175,
+          "in_stock": true
+        },
+        "instamart": {
+          "price": 160,
+          "mrp": 175,
+          "in_stock": true
+        }
+      }
+    }
+  ]
+}

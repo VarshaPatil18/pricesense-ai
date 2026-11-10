@@ -1,21 +1,35 @@
-import { mockPrices } from "../data/mockPrices";
+import { rupees } from "../utils/format";
 
-export default function Recommendation() {
-  const best = mockPrices.reduce((a, b) =>
-    a.total < b.total ? a : b
-  );
-
+export default function Recommendation({ recommendation, explanation }) {
+  if (!recommendation) {
+    return (
+      <div className="recommendation empty">
+        <p>{explanation.text}</p>
+      </div>
+    );
+  }
   return (
     <div className="recommendation">
-      <h2>🤖 AI Recommendation</h2>
-      <p>
-        <strong>{best.platform}</strong> is the best option right now.
-      </p>
-      <p>
-        Lowest total price (₹{best.total}) with delivery in {best.time}.
-      </p>
+      <div className="rec-head">
+        <div>
+          <span className="eyebrow">Recommended</span>
+          <h2>{recommendation.recommended}</h2>
+        </div>
+        <div className="rec-stats">
+          <div>
+            <strong>{rupees(recommendation.total)}</strong>
+            <span>all-in</span>
+          </div>
+          <div>
+            <strong>{recommendation.eta_minutes} min</strong>
+            <span>delivery</span>
+          </div>
+        </div>
+      </div>
+      <p>{explanation.text}</p>
+      <span className="source">
+        {explanation.source === "llm" ? "Explanation written by Gemini" : "Rule-based explanation"}
+      </span>
     </div>
   );
 }
-
-

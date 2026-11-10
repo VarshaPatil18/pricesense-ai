@@ -1,24 +1,12 @@
 export default function Header() {
   return (
     <header className="hero">
-      <div className="top-bar">
-        <span className="logo">PriceSense AI</span>
-        <span className="profile">👤 Guest</span>
-      </div>
-
-      <h1>Smarter Shopping with AI</h1>
+      <span className="logo">PriceSense AI</span>
+      <h1>Know where to order before you order</h1>
       <p className="tagline">
-        Best platform. Best time. Explained by AI.
+        Compare the all-in cost and delivery time across Blinkit, Zepto and Swiggy Instamart,
+        with a plain-language reason for every recommendation.
       </p>
-
-      <div className="hero-badges">
-        <span>💰 Save Money</span>
-        <span>⚡ Smart Timing</span>
-        <span>🤖 Explainable AI</span>
-      </div>
     </header>
   );
 }
-
-
-
