@@ -1,0 +1,35 @@
+{
+  "note": "Sample fee rules for demonstration. Not the real fees charged by any platform.",
+  "platforms": [
+    {
+      "id": "blinkit",
+      "name": "Blinkit",
+      "delivery_fee": 25,
+      "free_delivery_above": 199,
+      "handling_fee": 4,
+      "small_cart_fee": 20,
+      "small_cart_below": 99,
+      "eta_minutes": 12
+    },
+    {
+      "id": "zepto",
+      "name": "Zepto",
+      "delivery_fee": 30,
+      "free_delivery_above": 149,
+      "handling_fee": 5,
+      "small_cart_fee": 15,
+      "small_cart_below": 99,
+      "eta_minutes": 9
+    },
+    {
+      "id": "instamart",
+      "name": "Swiggy Instamart",
+      "delivery_fee": 35,
+      "free_delivery_above": 249,
+      "handling_fee": 6,
+      "small_cart_fee": 0,
+      "small_cart_below": 0,
+      "eta_minutes": 18
+    }
+  ]
+}
